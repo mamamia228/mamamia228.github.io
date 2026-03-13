@@ -1,0 +1,6 @@
+site_name: Портфолио 
+theme: moonstone
+nav:
+  - начальная страница: index.md
+  - обо мне: aboutme.md
+  - лабораторные: lab.md
