@@ -345,7 +345,7 @@ def plot_histogram(data):
     plt.savefig("lab/numpy_lab/plots/gg.png")
     plt.close()
 data = load_dataset("lab/numpy_lab/data/students_scores.csv")
-plot_histogram(data[:, 0])
+# plot_histogram(data[:, 0])
 
 
 def plot_heatmap(matrix):
@@ -363,7 +363,7 @@ def plot_heatmap(matrix):
     plt.savefig("lab/numpy_lab/plots/gg2.png")
     plt.close()
 corr = np. corrcoef(data, rowvar=False)
-plot_heatmap (corr)
+# plot_heatmap (corr)
 
 
 
@@ -386,6 +386,6 @@ def plot_line(x, y):
     plt.close()
 x = np.arange(1, len(data) + 1)
 y = data[:, 0]
-plot_line(x, y)
+# plot_line(x, y)
 
 
